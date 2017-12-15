@@ -11,6 +11,7 @@ export class AppComponent {
   public translate = { x: -50, y: -20 };
 
   public get svgTransform(): string {
+    // @link https://www.safaribooksonline.com/library/view/svg-essentials/0596002238/ch05s06.html
     const centerX = 50;
     const centerY = 0;
 
